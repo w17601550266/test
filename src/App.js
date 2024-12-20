@@ -3,7 +3,7 @@ import xml2js from 'xml2js'
 
 function App() {
   const xml = new xml2js.Parser()
-  console.log(xml2js, 'xmlxmlxml')
+  console.log(xml, 'xmlxmlxml')
   return (
     <div className="App">
       {testData.map((item) => <>{item.name}</>)}
