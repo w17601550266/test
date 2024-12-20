@@ -1,5 +1,6 @@
 const path = require('path');
-const { override, addWebpackAlias } = require('customize-cra');
+const { override, addWebpackAlias, addWebpackPlugin } = require('customize-cra');
+const Polyfill = require('node-polyfill-webpack-plugin')
 
 const addfallback =(config)=>{
   config.resolve.fallback={
@@ -17,5 +18,6 @@ module.exports = override(
     '@src': path.resolve(__dirname, 'src'),
 
   }),
-  addfallback
+  addWebpackPlugin(new Polyfill())
+  // addfallback
 );
