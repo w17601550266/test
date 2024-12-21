@@ -1,10 +1,9 @@
-import { testData,  } from '@common/data'
-// import xml2js from 'xml2js'
+import { testData,test  } from '@common/data'
 
 
 
 function App() {
-
+console.log(test)
   return (
     <div className="App">
       {testData.map((item) => <>{item.name}</>)}
