@@ -16,6 +16,6 @@ export const testData = [
 ]
 
 export const test = () => {
-        const xml = new xml2js.Parser()
-        console.log(xml, 'xmlxmlxml')
+        // const xml = new xml2js.Parser()
+        console.log(xml2js, 'xmlxmlxml')
     }
