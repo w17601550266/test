@@ -1,4 +1,5 @@
-import { testData  } from '@common/data'
+import { testData } from '@common/data'
+export { test } from '@common/data'
 
 
 
