@@ -1,5 +1,5 @@
 import { testData } from '@common/data'
-export { test } from '@common/data'
+// export { test } from '@common/data'
 
 function App() {
 
