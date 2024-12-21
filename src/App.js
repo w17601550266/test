@@ -15,10 +15,9 @@ import moment from 'moment';
 import { format, parseISO, subDays } from 'date-fns'; // 示例，根据需要解构
 
 // 图表
-import * as echarts from 'echarts'; // 或者解构特定的函数
-import EchartsReact from 'echarts-for-react';
+// import * as echarts from 'echarts'; // 或者解构特定的函数
+// import EchartsReact from 'echarts-for-react';
 
-// 其他库
 import axios from 'axios';
 import classnames from 'classnames';
 import { saveAs } from 'file-saver';
