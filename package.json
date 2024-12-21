@@ -48,7 +48,7 @@
     "web-vitals": "^2.1.4",
     "xlsx": "0.15.5",
     "xlsx-js-style": "^1.2.0",
-    "node-polyfill-webpack-plugin": "^2.0.1",
+    "node-polyfill-webpack-plugin": "^4.1.0",
     "console-browserify": "^1.1.0",
     "xml2js": "^0.6.2"
   },
