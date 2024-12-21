@@ -1,4 +1,5 @@
 import xml2js from 'xml2js'
+
 export const testData = [
     {
         name: '11',
@@ -14,8 +15,7 @@ export const testData = [
     },
 ]
 
-export const
-    test = () => {
+export const test = () => {
         const xml = new xml2js.Parser()
         console.log(xml, 'xmlxmlxml')
     }
