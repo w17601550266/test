@@ -36,6 +36,41 @@ import xml2js from 'xml2js';
 
 function App() {
 console.log(test(), base64, '11111')
+
+// UI框架和组件
+console.log('Button and Typography from @material-ui/core:', Button, Typography);
+console.log('DatePicker from @material-ui/pickers:', DatePicker);
+console.log('AddIcon (renamed from Add) from @material-ui/icons:', AddIcon);
+console.log('Alert from @material-ui/lab:', Alert);
+
+// FontAwesome图标
+console.log('library from @fortawesome/fontawesome-svg-core:', library);
+console.log('FontAwesomeIcon from @fortawesome/react-fontawesome:', FontAwesomeIcon);
+// 注意：faRegularIconName 和 faSolidIconName 是具体的图标名，这里应该替换为实际的图标对象
+// 但由于它们只是从库中导入的引用，直接输出可能不会有太多信息
+console.log('faRegularIconName:', faRegularIconName); // 这可能只会输出一个对象引用
+console.log('faSolidIconName:', faSolidIconName); // 同上
+
+// 日期处理
+console.log('moment library:', moment);
+console.log('date-fns functions:', { format, parseISO, subDays });
+
+// 其他库
+console.log('axios library:', axios);
+console.log('classnames library:', classnames);
+console.log('saveAs function from file-saver:', saveAs);
+console.log('IDB library:', IDB); // 注意：这个库可能需要特定的使用方式
+console.log('mammoth library:', mammoth);
+console.log('MarkdownToJSX library:', MarkdownToJSX);
+console.log('PDFMerger library:', PDFMerger); // 注意：这个库可能需要特定的使用方式
+console.log('DndProvider from react-dnd:', DndProvider);
+console.log('HTML5Backend from react-dnd-html5-backend:', HTML5Backend);
+console.log('TouchBackend from react-dnd-touch-backend:', TouchBackend);
+console.log('React-Redux hooks and Provider:', { Provider, useDispatch, useSelector });
+console.log('React Router components:', { Router: BrowserRouter, Route, Switch });
+console.log('reportWebVitals function:', reportWebVitals);
+console.log('XLSX library:', XLSX); 
+console.log('xml2js library:', xml2js);
   return (
     <div className="App">
       {testData.map((item) => <>{item.name}</>)}
